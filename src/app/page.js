@@ -1,11 +1,11 @@
 "use client";
 
 import React from 'react';
-// import DatePicker from './components/DatePicker';
-// import { DatePickerProvider } from './context/DatePickerContext';
+
 import './globals.css';
-import DatePicker from '@/components/DatePicker.';
-import { DatePickerProvider } from '@/context/DatePickerContext';
+
+import DatePicker from 'src/components/DatePicker.';
+import { DatePickerProvider } from 'src/context/DatePickerContext';
 
 const Home = () => {
   return (
